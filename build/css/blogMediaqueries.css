@@ -1,0 +1,390 @@
+@media all and (max-width: 480px) {
+    .basicBox {
+        overflow: hidden;
+        height: 300vh;
+        width: 100vw;
+    }
+
+    .pcGuideText {
+        position: absolute;
+        top: 46rem;
+        display: block;
+        font-size: 1rem;
+        color: white;
+        opacity: 0.5;
+        text-align: center;
+        font-family: 'Black Han Sans', sans-serif;
+    }
+
+    .pcGuideText2 {
+        top: 62rem;
+        width: 100%;
+        text-align: center;
+        font-family: 'Black Han Sans', sans-serif;
+    }
+
+    .pcGuideText3 {
+        position: absolute;
+        display: block;
+        top: 95.5rem;
+        width: 100%;
+        color: white;
+        opacity: 0.5;
+        text-align: center;
+        font-family: 'Black Han Sans', sans-serif;
+    }
+
+    .article1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #002F5B;
+        overflow: hidden;
+    }
+
+    .gameBox {
+        display: flex;
+        position: absolute;
+        margin-top: 140%;
+        width: 100%;
+        height: 30%;
+        background-color: transparent;
+        box-shadow: unset;
+        left: unset;
+    }
+
+    .introduce {
+        position: absolute;
+        left: 4%;
+        top: 4rem;
+        width: 90%;
+        font-size: 300%;
+        animation-name: intro;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes intro {
+        0% {
+            margin-left: 0px;
+        }
+
+        100% {
+            margin-left: 0px;
+        }
+    }
+
+    .introduce2 {
+        position: absolute;
+        width: 100%;
+        left: 4%;
+        top: 2rem;
+        height: 100%;
+        font-size: 300%;
+        animation-name: intro2;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    .introduce2 .introA {
+        font-size: 150%;
+    }
+
+    @keyframes intro2 {
+        0% {
+            margin-left: 0;
+        }
+
+        100% {
+            margin-left: 0;
+        }
+    }
+
+    .gameCanvas,
+    .scrollBtn,
+    .spaceBackground,
+    .gameBtnAllBox,
+    .note,
+    .gameCanvasFirst,
+    .gameSO,
+    .hans,
+    .manualIntroduce,
+    .manual {
+        display: none;
+    }
+
+    .titleBox,
+    .titleBoxLight {
+        left: 0;
+        margin: 0 auto;
+        font-size: 150%;
+        width: 100%;
+        top: 5rem;
+    }
+
+    .iconJump {
+        top: 53rem;
+    }
+
+    .iconJumpA {
+        left: 70%;
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .iconJumpB {
+        left: 47%;
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .human {
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .human:hover {
+        width: 8rem;
+        height: 8rem;
+        margin-top: -6%;
+        margin-left: 0%;
+    }
+
+    .swordIcon {
+        width: 5rem;
+        height: 5rem;
+        margin-left: 21%;
+        margin-top: 19%;
+    }
+
+    .swordIcon:hover {
+        width: 70%;
+        height: 70%;
+        margin-top: 4%;
+        margin-left: 19%;
+    }
+
+    .iconJumpH {
+        font-size: 1rem;
+        left: 155%;
+        top: -40%;
+        text-align: center;
+        width: 7.5rem;
+    }
+
+    .iconJumpH1 {
+        width: 8rem;
+    }
+
+    .iconSize {
+        height: 50%;
+    }
+
+    .font {
+        margin-left: 110%;
+        font-size: 3rem;
+        top: 52rem;
+    }
+
+    .fontA {
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-name: fontA;
+        margin-top: 14rem;
+    }
+
+    @keyframes fontA {
+        0% {
+            margin-left: -28rem
+        }
+
+        100% {
+            margin-left: -28rem
+        }
+    }
+
+    .fontB {
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-name: fontB;
+    }
+
+    @keyframes fontB {
+        0% {
+            margin-left: -25.5rem
+        }
+
+        100% {
+            margin-left: -25.5rem
+        }
+    }
+
+    .programIcon {
+        left: 0;
+        margin-left: -1.5px;
+        width: 100%;
+        top: 85rem;
+    }
+
+    .sassIcon {
+        margin-left: -5%;
+    }
+
+    .programIcon div {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .point {
+        margin-left: -1.2rem;
+        font-size: unset;
+    }
+
+    .levelValue {
+        left: 0;
+        margin-left: 0;
+        width: 100%;
+        top: 87rem;
+    }
+
+    .monster {
+        left: -7%;
+        position: absolute;
+    }
+
+    .spaceshipIcon {
+        left: 110%;
+        position: absolute;
+    }
+
+    .monsterA {
+        top: 23rem;
+        margin-left: -10.5rem;
+        width: 21rem;
+        height: 20rem;
+    }
+
+    .monsterB {
+        top: 83.5rem;
+        left: 50%;
+        width: 20rem;
+        height: 10rem;
+        margin-left: -10rem;
+    }
+
+    .addressBox {
+        top: 69rem;
+        margin-top: -3rem;
+        width: 15rem;
+        height: 17rem;
+        left: 84%;
+    }
+
+    .address {
+        font-size: 0.6rem;
+    }
+
+    .addressBoxA {
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        top: 14.1rem;
+        left: -2rem;
+    }
+
+    .addressBoxB {
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        top: 14.1rem;
+        left: 2.5rem;
+    }
+
+    .addressBoxC {
+        position: absolute;
+        top: 14.1rem;
+        left: 5rem;
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .kwanghoBox {
+        width: 12rem;
+        height: 11rem;
+        left: 18%;
+        margin-left: -4rem;
+        top: 94rem;
+    }
+
+    .cardBox {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card,
+    .cardBack {
+        width: 90px;
+        height: 9rem;
+    }
+
+    .cardBoxAllA {
+        left: 50%;
+        margin-left: -187.5px;
+        margin-top: -3.5rem;
+        height: 16rem;
+        width: 375px;
+        top: 101rem;
+    }
+
+    .contentBox {
+        height: 1.5rem;
+        width: 100%;
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+        line-height: 1.8rem;
+
+    }
+
+    .cardBack {
+        position: absolute;
+        top: 0;
+        font-size: 1rem;
+        line-height: 4rem;
+    }
+
+    .cardBoxAllB {
+        left: 50%;
+        margin-left: -187.5px;
+        margin-top: -9rem;
+        height: 16rem;
+        width: 375px;
+        top: 117rem;
+    }
+
+    .eye {
+        display: none;
+    }
+
+    #nodejs {
+        margin-left: 0.2rem;
+    }
+    .explanationCard{
+        font-size: 0.6rem;
+        line-height: 0.7rem;
+    }
+    .contentBox1{
+        margin-top: 1.5rem;
+        margin-bottom: 0.3rem;
+    }
+    .contentBox2{
+        margin: 0;
+    }
+}

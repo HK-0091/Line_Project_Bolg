@@ -1,0 +1,893 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+.pcGuideText,
+.pcGuideText2 {
+  display: none;
+  color: red; }
+
+.note {
+  position: absolute;
+  font-size: 2rem;
+  opacity: 0.2;
+  font-family: 'Black Han Sans', sans-serif; }
+
+.basicBox {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden; }
+
+.article1 {
+  height: 100%;
+  background-color: transparent; }
+
+.article2,
+.article3 {
+  height: 100%;
+  background-color: #002F5B; }
+
+.titleBox,
+.titleBoxLight {
+  width: 90rem;
+  height: 5rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -45rem;
+  margin-top: -5rem;
+  color: yellow;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 5rem;
+  text-align: center;
+  font-family: 'Tilt Warp', cursive;
+  letter-spacing: 0.2rem;
+  z-index: 1; }
+
+.titleBoxLight {
+  filter: blur(0.3rem);
+  display: none; }
+
+.introduce {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -25rem;
+  margin-top: -32rem;
+  width: 95rem;
+  height: 8rem;
+  font-size: 6rem;
+  color: lightblue;
+  font-family: 'Black Han Sans', sans-serif;
+  z-index: 100;
+  opacity: 0; }
+
+.introduce2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -110rem;
+  margin-top: -20rem;
+  width: 40rem;
+  height: 8rem;
+  color: lightblue;
+  font-size: 6rem;
+  font-family: 'Black Han Sans', sans-serif;
+  z-index: 100; }
+
+.introA {
+  opacity: 0;
+  font-size: 9rem;
+  color: yellow; }
+
+.introB {
+  opacity: 0; }
+
+.manualIntroduce {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -75rem;
+  margin-top: 14rem;
+  width: 50rem;
+  height: 3rem;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  z-index: 100;
+  font-family: 'Black Han Sans', sans-serif;
+  opacity: 0.5; }
+
+.hans {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 7.5rem;
+  margin-left: -41.5rem;
+  width: 5rem;
+  height: 5rem;
+  opacity: 1;
+  animation-duration: 1s;
+  animation-name: hans;
+  animation-iteration-count: infinite; }
+
+@keyframes hans {
+  0% {
+    margin-left: -41.5rem; }
+  50% {
+    margin-left: -38.5rem; }
+  100% {
+    margin-left: -41.5rem; } }
+.gameBox {
+  box-shadow: 0px 0px 1rem 0.1rem lightblue;
+  width: 60rem;
+  height: 33.33333333rem;
+  background-color: #002F5B;
+  position: absolute;
+  left: 50%;
+  margin-left: -3%;
+  border-radius: 3rem;
+  margin-top: 19%;
+  z-index: 1; }
+
+.gameCanvas,
+.gameCanvasFirst {
+  width: 65%;
+  height: 80%;
+  margin-left: 29%;
+  margin-top: 5.2%;
+  position: absolute;
+  border-radius: 2rem;
+  z-index: 3; }
+
+.gameCanvasFirst {
+  background-color: #5F5F5F;
+  z-index: 2; }
+
+.scrollBtn {
+  font-family: 'Gugi', cursive;
+  width: 16rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 2px solid yellow;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  animation-iteration-count: infinite;
+  animation-name: btnLight;
+  animation-duration: 2s;
+  color: white;
+  font-size: 1rem;
+  text-align: center; }
+
+.scrollBtnLocation1 {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  margin-left: -8rem;
+  box-shadow: 0rem 0rem 1rem 0rem yellow;
+  z-index: 100; }
+
+@keyframes btnLight {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+.scrollBtnLocation2 {
+  position: absolute;
+  left: 50%;
+  margin-left: -8rem;
+  box-shadow: 0rem 0rem 1rem 0rem yellow;
+  top: 101.69762%; }
+
+.scrollBtnLocation3 {
+  position: absolute;
+  left: 50%;
+  margin-left: -8rem;
+  box-shadow: 0rem 0rem 1rem 0rem yellow;
+  top: 195%; }
+
+.scrollBtnLocation4 {
+  position: absolute;
+  left: 50%;
+  margin-left: -8rem;
+  box-shadow: 0rem 0rem 1rem 0rem yellow;
+  top: 201.5%; }
+
+.scrollBtnLocation5 {
+  position: absolute;
+  top: 295.5%;
+  left: 50%;
+  margin-left: -8rem;
+  border: 2px solid red;
+  box-shadow: 0rem 0rem 1rem 0rem red; }
+
+img {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+.gameBtnAllBox {
+  margin-top: 20%;
+  margin-left: 4%;
+  width: 20%;
+  height: 35%;
+  position: absolute;
+  z-index: 88; }
+
+.centerButton {
+  top: 50%;
+  left: 50%;
+  margin-top: -2.5rem;
+  margin-left: -2.5rem;
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: red;
+  border-radius: 50%;
+  z-index: 100;
+  box-shadow: 0px 0.3125rem 0 black;
+  display: block; }
+
+.BC {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10rem;
+  height: 10rem;
+  margin-top: -5rem;
+  display: block; }
+
+.leftArrow {
+  margin-left: -10.5rem;
+  z-index: 88; }
+
+.leftClickArrow {
+  margin-left: -10.5rem;
+  z-index: 87; }
+
+.rightArrow {
+  margin-left: 0.5rem;
+  z-index: 88; }
+
+.rightClickArrow {
+  margin-left: 0.5rem;
+  z-index: 87; }
+
+.upArrow {
+  margin-top: -10.5rem;
+  margin-left: -5rem;
+  z-index: 88; }
+
+.upClickArrow {
+  margin-top: -10.5rem;
+  margin-left: -5rem;
+  z-index: 87; }
+
+.downArrow {
+  margin-top: 0.5rem;
+  margin-left: -5rem;
+  z-index: 88; }
+
+.downClickArrow {
+  margin-top: 0.5rem;
+  margin-left: -5rem;
+  z-index: 87; }
+
+.spaceshipIcon {
+  display: absolute;
+  width: 3rem;
+  height: 3rem;
+  left: 50%;
+  margin-top: -5rem;
+  margin-left: -23.5rem;
+  animation-name: jumpSpaceshipIcon;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  z-index: 3; }
+
+@keyframes jumpSpaceshipIcon {
+  0% {
+    top: 3.5%; }
+  50% {
+    top: 1.5%; }
+  100% {
+    top: 3.5%; } }
+.monster {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  left: 50%;
+  margin-left: 20rem;
+  margin-top: -5rem;
+  animation-name: jumpMonster;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  z-index: 3; }
+
+@keyframes jumpMonster {
+  0% {
+    top: 3.5%; }
+  50% {
+    top: 1.5%; }
+  100% {
+    top: 3.5%; } }
+.spaceBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0; }
+
+.cardBoxAllA {
+  position: absolute;
+  left: 50%;
+  margin-left: -35rem;
+  margin-top: -9.5rem;
+  height: 19rem;
+  width: 70rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  opacity: 1;
+  top: 225%;
+  margin-bottom: 10rem; }
+
+.cardBoxAllB {
+  position: absolute;
+  left: 50%;
+  margin-left: -35rem;
+  margin-top: -9.5rem;
+  height: 19rem;
+  width: 70rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  opacity: 1;
+  top: 275%; }
+
+.cardBox {
+  width: 12.5rem;
+  height: 100%;
+  perspective: 68.75rem; }
+
+.card {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  transform-style: preserve-3d; }
+
+.cardFront {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; }
+
+.cardBack {
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  font-size: 2rem;
+  color: white;
+  margin: 0 auto;
+  line-height: 10rem;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #008080; }
+
+.cardBox:hover .card {
+  transform: rotateY(180deg); }
+
+.gameSO {
+  position: absolute;
+  left: 50%;
+  margin-left: -3.64rem;
+  margin-top: 18rem;
+  width: 25rem;
+  height: 25rem;
+  z-index: 99; }
+
+.gameStart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -16rem;
+  margin-left: -9.5rem;
+  display: block;
+  width: 32rem;
+  height: 32rem; }
+
+.gameOver {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -16rem;
+  margin-left: -9.5rem;
+  display: block;
+  width: 32rem;
+  height: 32rem;
+  display: none; }
+
+.gameStart:hover {
+  cursor: pointer; }
+
+.gameOver:hover {
+  cursor: pointer; }
+
+.manualBtn {
+  position: absolute;
+  width: 18rem;
+  height: 3rem;
+  top: 50%;
+  left: 50%;
+  margin-top: -15.5rem;
+  margin-left: -31.5rem;
+  z-index: 99;
+  font-family: 'Tilt Warp', cursive;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 3rem;
+  animation-name: manualLight;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  z-index: 100; }
+
+@keyframes manualLight {
+  0% {
+    color: black; }
+  50% {
+    color: gray; }
+  100% {
+    color: black; } }
+.manualBtn:hover {
+  cursor: pointer; }
+
+.manual {
+  position: absolute;
+  left: 50%;
+  width: 40rem;
+  height: 25rem;
+  margin-top: 22%;
+  margin-left: 10%;
+  display: none;
+  border-radius: 10%;
+  background-color: #002F5B;
+  box-shadow: -1rem 1rem 0 0 #000C29;
+  z-index: 100; }
+
+.article1 ul {
+  list-style: none; }
+
+.deleteBox {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: 50%;
+  left: 50%;
+  margin-top: -11rem;
+  margin-left: 15rem;
+  background-color: red;
+  border-radius: 2rem;
+  font-size: 2rem;
+  color: white;
+  font-family: 'Tilt Warp', cursive;
+  text-align: center;
+  line-height: 3rem;
+  box-shadow: 0rem 0.2rem 0 0 black;
+  cursor: pointer; }
+
+.deleteBox:active {
+  margin-top: -10.8rem;
+  margin-left: 15rem;
+  box-shadow: 0rem 0rem 0 0 black; }
+
+.mC {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5rem;
+  height: 4rem;
+  z-index: 100;
+  border-radius: 15%;
+  margin-left: -19rem; }
+
+.manual1 {
+  margin-top: 7.5rem; }
+
+.manual3 {
+  margin-top: 2rem; }
+
+.manual2 {
+  margin-top: -3.5rem; }
+
+.manual4 {
+  margin-top: -9rem; }
+
+.mP {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -13rem;
+  width: 30rem;
+  height: 3.5rem;
+  z-index: 100;
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Dongle', sans-serif;
+  word-spacing: 0rem; }
+
+.manualP1 {
+  margin-top: -9.5rem; }
+
+.manualP2 {
+  margin-top: -4.5rem;
+  width: 32rem;
+  font-size: 2rem; }
+
+.manualP3 {
+  margin-top: 2rem; }
+
+.manualP4 {
+  margin-top: 7.5rem; }
+
+.swordIcon {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  margin-left: 20%;
+  margin-top: 20%;
+  z-index: 100;
+  transform: rotate(-20deg);
+  animation-duration: 1s;
+  animation-name: sword;
+  animation-iteration-count: infinite; }
+
+.swordIcon:hover {
+  cursor: pointer;
+  width: 60%;
+  height: 60%;
+  margin-top: 10%;
+  margin-left: 25%; }
+
+.human {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  z-index: 99;
+  margin-top: 20%;
+  margin-left: 20%;
+  animation-duration: 1s;
+  animation-name: robotJump;
+  animation-iteration-count: infinite; }
+
+.human:hover {
+  width: 9rem;
+  height: 9rem;
+  cursor: pointer;
+  margin-top: 0%;
+  margin-left: 12%; }
+
+.explanationCard {
+  position: absolute;
+  top: 35%;
+  line-height: 1.2rem;
+  font-size: 0.8rem;
+  width: 100%;
+  text-align: center; }
+
+.iconJump {
+  position: absolute;
+  top: 175%;
+  left: 50%;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  animation-name: jumpIcon;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  z-index: 99; }
+
+.iconJumpA {
+  margin-left: -16rem; }
+
+.iconJumpB {
+  margin-left: 4rem; }
+
+@keyframes jumpIcon {
+  0% {
+    margin-top: 0rem;
+    background-color: transparent; }
+  50% {
+    margin-top: -1rem;
+    background-color: #7C00F7; }
+  100% {
+    margin-top: 0rem;
+    background-color: transparent; } }
+.iconJumpH {
+  text-align: center;
+  width: 25rem;
+  height: 2rem;
+  margin-left: -12.5rem;
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Gugi', cursive;
+  opacity: 0; }
+
+.kwanghoBox {
+  position: absolute;
+  top: 164%;
+  left: 50%;
+  margin-left: -120%;
+  margin-top: -28rem;
+  display: block;
+  opacity: 0;
+  width: 19rem;
+  height: 28rem;
+  overflow: hidden;
+  background-color: transparent; }
+
+.kwangho {
+  height: 100%;
+  width: auto;
+  border-radius: 3%; }
+
+.address {
+  margin-left: 5%;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 150%; }
+
+.addressBox {
+  z-index: 500;
+  position: absolute;
+  top: 143%;
+  left: 50%;
+  margin-left: 50%;
+  margin-top: -15rem;
+  background-color: cadetblue;
+  width: 45rem;
+  height: 30rem;
+  border-radius: 3%;
+  opacity: 0; }
+
+.addressResultBox {
+  padding-top: 2%;
+  margin: 0 auto;
+  margin-top: 3%;
+  background-color: black;
+  border-radius: 5%;
+  width: 90%;
+  height: 80%; }
+
+.addressBoxA {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 3rem; }
+
+.addressBoxB {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: red;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-left: 1rem; }
+
+.addressBoxC {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 1rem; }
+
+.addressBoxLight {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  animation-duration: 1s;
+  animation-name: boxLight;
+  animation-iteration-count: infinite;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-family: 'Gugi', cursive;
+  margin-top: 0.6rem; }
+
+@keyframes boxLight {
+  0% {
+    background-color: #7C00F7; }
+  50% {
+    background-color: transparent; }
+  100% {
+    background-color: #7C00F7; } }
+.font {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  text-align: center;
+  width: 50rem;
+  height: 4rem;
+  font-size: 4rem;
+  font-family: 'Black Han Sans', sans-serif;
+  color: lightblue; }
+
+.fontA {
+  margin-top: 10rem;
+  margin-left: 25rem;
+  opacity: 0; }
+
+.fontB {
+  margin-top: 17rem;
+  margin-left: -75rem;
+  opacity: 0; }
+
+.levelValue {
+  position: absolute;
+  display: flex;
+  top: 170%;
+  left: 50%;
+  margin-left: -50rem;
+  width: 100rem;
+  height: 5rem;
+  border: 2px solid transparent;
+  justify-content: space-around;
+  opacity: 0; }
+
+.levelValue div {
+  display: inline-block;
+  width: 1rem;
+  height: 0rem;
+  background-color: yellow; }
+
+.programIcon {
+  position: absolute;
+  display: flex;
+  top: 160%;
+  left: 50%;
+  margin-left: -50.1rem;
+  margin-top: -2.5rem;
+  width: 100rem;
+  height: 5rem;
+  border: 2px solid transparent;
+  justify-content: space-around;
+  opacity: 0; }
+
+.programIcon div {
+  display: inline-block;
+  width: 5rem;
+  height: 0rem;
+  background-color: transparent;
+  opacity: 1; }
+
+#nodejs {
+  margin-left: 0.4rem; }
+
+.iconSize {
+  height: 100%;
+  width: auto;
+  border: 1px solid transparent; }
+
+.sassIcon {
+  margin-left: -2.5%; }
+
+.point {
+  opacity: 1;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 5rem;
+  font-family: 'Black Han Sans', sans-serif;
+  color: lightblue; }
+
+.contentBox {
+  letter-spacing: 0.2rem;
+  height: 3rem;
+  width: 10rem;
+  margin: 1rem auto;
+  background-color: #2e508d;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 3rem;
+  text-align: center;
+  color: white;
+  font-family: 'Black Han Sans', sans-serif; }
+
+.contentBox:hover {
+  color: yellow; }
+
+.eye {
+  position: absolute;
+  top: 250%;
+  left: 50%;
+  margin-left: -6rem;
+  margin-top: 0rem;
+  width: 2rem;
+  height: 2rem;
+  animation-duration: 2s;
+  animation-name: eye;
+  animation-iteration-count: infinite; }
+
+@keyframes eye {
+  0% {
+    margin-left: -6rem;
+    margin-top: 1rem; }
+  25% {
+    margin-left: -1rem;
+    margin-top: -2rem; }
+  50% {
+    margin-left: 4rem;
+    margin-top: 1rem; }
+  75% {
+    margin-left: -1rem;
+    margin-top: -2rem; }
+  100% {
+    margin-left: -6rem;
+    margin-top: 1rem; } }
+.monsterA {
+  position: absolute;
+  top: 149%;
+  left: 50%;
+  margin-left: 8rem;
+  width: 30rem;
+  height: 30rem;
+  opacity: 0.2; }
+
+.monsterB {
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  width: 100rem;
+  height: 60rem;
+  margin-left: -50rem;
+  opacity: 0.2; }
+
+.pcGuideText3 {
+  display: none; }
+
+.myIntroduction {
+  position: absolute;
+  top: 110%;
+  left: 21%;
+  font-size: 3rem;
+  min-width: 1rem;
+  white-space: nowrap;
+  margin: 0;
+  color: transparent;
+  transform: translate(-50%, -50%); }
+
+.myIntroduction::before {
+  content: "Let me introduce myself   ";
+  position: absolute;
+  height: 100%;
+  color: white;
+  overflow: hidden;
+  border-right: 1px solid white;
+  animation: typing 8s steps(31) infinite;
+  font-family: 'Gugi', cursive; }
+
+@keyframes typing {
+  0% {
+    width: 0%; }
+  50% {
+    width: 100%; }
+  100% {
+    width: 0%; } }
+.addressBoxLight:hover {
+  cursor: pointer; }
+
+/*# sourceMappingURL=blogA.css.map */

@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>강광호의 블로그에 오신 것을 환영합니다.</title>
+	<link href="../img/Favicon.png" type="image/png" sizes="32x32" rel="icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+	<link href="../css/blogA.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../css/blogMediaqueries.css">
+</head>
+
+<body>
+	<div class="basicBox" id="basicBox">
+		<p class="note">포트폴리오 용입니다.</p>
+		<article class="article1" id="article1">
+			<p class="pcGuideText">PC버전에서 게임을 즐겨보세요!</p>
+			<div class="manual" id="manual">
+				<div class="deleteBox" id="deleteBox">X</div>
+				<ul>
+					<li>
+						<p class="manualP1 mP">선물상자를 먹으면 특정 페이지로 이동합니다!</p>
+						<img src="../img/manual.png" class="manual1 mC" alt="manual1">
+					</li>
+					<li>
+						<p class="manualP3 mP">GAMEOVER를 누르면 게임이 재시작됩니다!</p>
+						<img src="../img/manual3.png" class="manual3 mC" alt="manual3">
+					</li>
+					<li>
+						<p class="manualP2 mP">우주선의 방향키는 ←, ↑, →, ↓ 발사키는 'spacebar'로<br> 움직입니다!</p>
+						<img src="../img/manual2.png" class="manual2 mC" alt="manual2">
+					</li>
+					<li>
+						<p class="manualP4 mP">GAMESTAR를 누르면 게임이 시작됩니다!</p>
+						<img src="../img/present.png" class="manual4 mC" alt="manual4">
+					</li>
+				</ul>
+			</div>
+			<button onclick="scrollLocation('article2')" class="scrollBtnLocation1 scrollBtn">소개로 이동합니다</button>
+			<img src="../img/spaceBackground.jpg" class="spaceBackground" id="spaceBackground" alt="spaceBackground"
+				width="1920" height="1080">
+			<div class="gameBox">
+				<p class="introduce">개발을 게임처럼 즐기는 개발자</p>
+				<p class="introduce2"><span class="introA">강광호</span><span class="introB">입니다.</span></p>
+				<img src="../img/hans.png" class="hans" alt="hans">
+				<div class="manualIntroduce">
+					<p>게임을 시작해 페이지를 이동해보세요!</p>
+				</div>
+				<canvas id="gameCanvas" class="gameCanvas" width="640" height="359"></canvas>
+				<img src="../img/gameOver.png" class="gameSO gameOver" id="gameSO" alt="gameOver">
+				<img src="../img/gameStart.png" class="gameSO gameStart" id="gameSO" alt="gameStart">
+				<div class="gameCanvasFirst"></div>
+				<p class="manualBtn" id="manualBtn">manual</p>
+				<div class="gameBtnAllBox">
+					<div class="centerButton" id="centerButton"></div>
+					<img src="../img/lBtn.png" class="leftArrow BC" id="leftArrow" alt="leftArrow">
+					<img src="../img/rBtn.png" class="rightArrow BC" id="rightArrow" alt="rightArrow">
+					<img src="../img/uBtn.png" class="upArrow BC" id="upArrow" alt="upArrow">
+					<img src="../img/dBtn.png" class="downArrow BC" id="downArrow" alt="downArrow">
+					<img src="../img/lCBtn.png" class="leftClickArrow BC" id="leftClickArrow" alt="leftClickArrow">
+					<img src="../img/rCBtn.png" class="rightClickArrow BC" id="rightClickArrow" alt="rightClickArrow">
+					<img src="../img/uCBtn.png" class="upClickArrow BC" id="upClickArrow" alt="upClickArrow">
+					<img src="../img/dCBtn.png" class="downClickArrow BC" id="downClickArrow" alt="downClickArrow">
+				</div>
+				<img src="../img/monster.png" class="monster" id="monster" alt="swordIcon">
+				<img src="../img/spaceshipIcon.png" class="spaceshipIcon" id="spaceshipIcon" alt="spaceshipIcon">
+				<header class="titleBox">WELCOME TO K-LAND!!</header>
+				<header class="titleBoxLight" id="titleBoxLight">WELCOME TO K-LAND!!</header>
+			</div>
+		</article>
+
+		<article class="article2" id="article2">
+			<div class="myIntroduction"> Let me introduce myself... </div>
+			<img src="../img/monsterA.png" class="monsterA" id="monsterA" alt="monsterA">
+			<p class="fontA font">꾸준한 레벨업!</p>
+			<p class="fontB font">업무능력 기대상승!</p>
+			<div class="kwanghoBox">
+				<img src="../img/kwangho.jpg" class="kwangho" id="kwangho" alt="kwangho">
+			</div>
+			<div class="addressBox" id="addressBox">
+				<div class="addressResultBox">
+					<p class="address">NAME: 강광호<br><br>BIRTHDAYE: 1996.01.09<br><br>ADDRESS: 경기도 시흥시 정왕동<br><br>MOBILE:
+						010 2281 4382<br><br>LICENSE: 무대기계3급, ITQMASTER, 컴퓨터활용능력2급, &nbsp운전면허1종보통</p>
+				</div>
+				<div class="addressBoxA addressBoxLight">1</div>
+				<div class="addressBoxB addressBoxLight">2</div>
+				<div class="addressBoxC addressBoxLight">3</div>
+			</div>
+			<div class="iconJumpA iconJump">
+				<div class="iconJumpH1 iconJumpH">개인정보를 확인해 보실 수 있습니다.</div>
+				<img src="../img/human.png" class="human" id="human" alt="human">
+			</div>
+			<div class="iconJumpB iconJump">
+				<div class="iconJumpH2 iconJumpH">업무 수행능력을 보실 수 있습니다.</div>
+				<img src="../img/swordIcon.png" class="swordIcon" id="swordIcon" alt="swordIcon">
+			</div>
+			<button onclick="scrollLocation('article1')" class="scrollBtnLocation2 scrollBtn">첫 페이지로 이동합니다</button>
+			<button onclick="scrollLocation('article3')" class="scrollBtnLocation3 scrollBtn">포트폴리오로 이동합니다</button>
+			<div class="levelValue">
+				<div class="value1"></div>
+				<div class="value2"></div>
+				<div class="value3"></div>
+				<div class="value4"></diV>
+				<div class="value5"></div>
+				<div class="value6"></div>
+				<div class="value7"></div>
+				<div class="value8"></div>
+				<div class="value9"></div>
+			</div>
+			<div class="programIcon">
+				<div class="programIcon1 pI">
+					<p class="point">50%</p>
+					<img src="../img/java.png" class="javaIcon iconSize" id="javaIcon" alt="javaIcon">
+				</div>
+				<div class="programIcon2 pI">
+					<p class="point">75%</p>
+					<img src="../img/css.png" class="cssIcon iconSize" id="cssIcon" alt="cssIcon">
+				</div>
+				<div class="programIcon3 pI">
+					<p class="point">70%</p>
+					<img src="../img/jquery.png" class="jqueryIcon iconSize" id="jqueryIcon" alt="jqueryIcon">
+				</div>
+				<div class="programIcon4 pI">
+					<p class="point">65%</p>
+					<img src="../img/pug.png" class="pugIcon iconSize" id="pugIcon" alt="pugIcon">
+				</div>
+				<div class="programIcon5 pI">
+					<p class="point">60%</p>
+					<img src="../img/nodejs.png" class="nodejsIcon iconSize" id="nodejs" alt="nodejs">
+				</div>
+				<div class="programIcon6 pI">
+					<p class="point">50%</p>
+					<img src="../img/sass.png" class="sassIcon iconSize" id="sassIcon" alt="sassIcon">
+				</div>
+				<div class="programIcon7 pI">
+					<p class="point">80%</p>
+					<img src="../img/js.png" class="jsIcon iconSize" id="jsIcon" alt="jsIcon">
+				</div>
+				<div class="programIcon8 pI">
+					<p class="point">60%</p>
+					<img src="../img/mysql.png" class="mysqlIcon iconSize" id="mysqlIcon" alt="mysqlIcon">
+				</div>
+				<div class="programIcon9 pI">
+					<p class="point">85%</p>
+					<img src="../img/html.png" class="htmlIcon iconSize" id="htmlIcon" alt="htmlIcon">
+				</div>
+			</div>
+		</article>
+
+		<article class="article3" id="article3">
+			<img src="../img/monsterB.png" class="monsterB" id="monsterB" alt="monsterB">
+			<img src="../img/eye.png" class="eye" id="eye" alt="eye">
+			<div class="cardBoxAllA">
+				<div class="cardBox">
+					<div class="card">
+						<img src="../img/spaceGame.PNG" class="cardFront card1">
+						<div class="cardBack card1">슈팅 게임
+						<p class="explanationCard">고전 비행기 게임인<br>슈팅 게임을 구현해 보았습니다.</p>
+							<div class="contentBox1 contentBox"> JOIN </div>
+							<div class="contentBox2 contentBox"> CONTENT </div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="cardBox">
+					<div class="card">
+						<img src="../img/matrix_calculator.PNG" class="cardFront card2">
+						<div class="cardBack card2">행렬 계산기
+						<p class="explanationCard">행렬을 계산하는 <br>계산기를 구현해 보았습니다.</p>
+							<div class="contentBox1 contentBox"> JOIN </div>
+							<div class="contentBox2 contentBox"> CONTENT </div>
+						</div>
+					</div>
+				</div>
+				<div class="cardBox">
+					<div class="card">
+						<img src="../img/jinsoo.PNG" class="cardFront card3">
+						<div class="cardBack card3">진수 변환기
+						<p class="explanationCard">진수를 변환하는<br>변환기를 구현해 보았습니다.</p>
+							<div class="contentBox1 contentBox"> JOIN </div>
+							<div class="contentBox2 contentBox"> CONTENT </div>
+						</div>
+					</div>
+				</div>
+				<div class="cardBox">
+					<div class="card">
+						<img src="../img/tetris.PNG" class="cardFront card4">
+						<div class="cardBack card4">테트리스
+						<p class="explanationCard">옛 추억을 떠올리는 <br>테트리스를 구현해 보았습니다.</p>
+							<div class="contentBox1 contentBox"> JOIN </div>
+							<div class="contentBox2 contentBox"> CONTENT </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cardBoxAllB">
+				<div class="cardBox">
+					<div class="card">
+						<img src="../img/musicPlayer.PNG" class="cardFront card5">
+						<div class="cardBack card5">음악 재생기
+						<p class="explanationCard">노래를 들을 수 있는<br>음악 재생기를 구현해 보았습니다.</p>
+							<div class="contentBox1 contentBox"> JOIN </div>
+							<div class="contentBox2 contentBox"> CONTENT </div>
+						</div>
+					</div>
+				</div>
+				<div class="cardBox">
+					<div class="card">
+						<img src="../img/kiosk.PNG" class="cardFront card6">
+						<div class="cardBack card6">키오스크
+						<p class="explanationCard">요플레 판매를 위한 <br>키오스크를 구현해 보았습니다.</p>
+							<div class="contentBox1 contentBox"> JOIN </div>
+							<div class="contentBox2 contentBox"> CONTENT </div>
+						</div>
+					</div>
+				</div>
+					<div class="cardBox">
+					<div class="card">
+						<img src="../img/emptyCard.png" class="cardFront card7">
+						<div class="cardBack card7">empty
+						</div>
+					</div>
+				</div>
+				<div class="cardBox">
+					<div class="card">
+						<img src="../img/emptyCard.png" class="cardFront card8">
+						<div class="cardBack card8">empty
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			<button onclick="scrollLocation('article2')" class="scrollBtnLocation4 scrollBtn">소개로 이동합니다</button>
+			<button onclick="scrollLocation('article1')" class="scrollBtnLocation5 scrollBtn">첫 페이지로 이동합니다</button>
+		</article>
+	</div>
+</body>
+<script src="../js/blogA.js"></script>
+
+</html>
